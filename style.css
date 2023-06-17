@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Encode+Sans:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Orbit:regular);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700);
+
+body{
+    font-family: 'Encode Sans', Courier, monospace;
+}
+#main_heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+}
+#content1{
+    background-color: #fba8ab;
+    position:relative;
+    height:855px;
+}
+.img_content1{
+    position:absolute;
+    bottom:0;
+}
+#texts{
+    position:absolute;
+    top:40%;
+    right:15%;
+    left:60%;
+}
+.p1{
+    position:absolute;
+    top:1%;
+}
+.p2{
+    font-family: 'Dancing Script', Courier, monospace;
+    font-size:3rem;
+}
+
+.p3{
+    position:absolute;
+    top:65%;
+}
+/* .p4{
+    position:absolute;
+    top:95%;
+} */
+
+.buttons{
+    display:flex;
+    justify-content: space-between;
+}
+.button1{
+    position:absolute;
+    bottom:-70%;
+    padding:20px;
+    border-radius:25px;
+    width:200px;
+    border:#fba8ab;
+
+}
+.button2{
+    position:absolute;
+    bottom:-70%;
+    right:50px;
+    padding:20px;
+    border-radius:25px;
+    width:200px;
+    border:#fba8ab;
+
+
+}
+/* page2{
+
+} */
+
+textss{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
