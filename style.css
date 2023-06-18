@@ -78,9 +78,9 @@ body{
 
 
 }
-/* page2{
-
-} */
+page2{
+    margin:0px,20px,0px,20px;
+}
 
 .textss{
     display:flex;
@@ -95,10 +95,11 @@ body{
     font-size: 1.3rem;
 
 }
-.boxes .{
+.boxes{
+    position:relative;
+
 
 }
-
 .rates{
     padding:5px;
     border-radius: 10px;
@@ -110,4 +111,14 @@ body{
     display:flex;
     justify-content: space-between;
 
+}
+.price{
+    position:absolute;
+    top:30rem;
+}
+
+.big_box{
+    display:flex;
+    position:relative;
+    justify-content: space-around;
 }
