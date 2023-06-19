@@ -126,6 +126,7 @@ page2 {
 .page-3 {
     position: relative;
     text-align: center;
+    background-color: rgb(238, 238, 238);
 }
 .email input {
     padding-inline: 30px;
@@ -152,4 +153,13 @@ page2 {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    background-color: rgb(238, 238, 238);
+
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        /* display: flex; */
+        font-size: 1.2rem;
+    }
 }
