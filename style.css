@@ -10,17 +10,17 @@ body {
     align-items: center;
     gap: 0.5rem;
 }
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+}
 
 .nav {
     display: flex;
     font-size: 1.2rem;
 }
 
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 1rem;
-}
 #content1 {
     background-color: #fba8ab;
     position: relative;
@@ -29,6 +29,7 @@ body {
 .img_content1 {
     position: absolute;
     bottom: 0;
+    width:1000px;
 }
 #texts {
     position: absolute;
@@ -154,12 +155,35 @@ page2 {
     justify-content: center;
     align-items: baseline;
     background-color: rgb(238, 238, 238);
-
 }
 
-@media screen and (max-width: 600px) {
-    .nav {
-        /* display: flex; */
-        font-size: 1.2rem;
+@media screen and (max-width: 400px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-inline: 0rem;
     }
+    #main_heading {
+        display: flex;
+        /* align-items: center; */
+        /* gap: 0.5rem; */
+        justify-content: center;
+    }
+    .nav {
+        display: flex;
+        font-size: 1rem;
+        align-items: baseline;
+    }
+    #content1 {
+        /* background-color: #fba8ab; */
+        position:relative;
+        height: 855px;
+        width:10px;
+
+    }
+    .img_content1 {
+        position: absolute;
+        bottom: 300px;
+        width:
 }
