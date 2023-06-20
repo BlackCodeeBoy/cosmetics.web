@@ -211,20 +211,22 @@ page2 {
     }
     .buttons {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .button1 {
         position: absolute;
-        bottom: -70%;
+        top: 250px;
+        right:50px;
         padding: 20px;
-        border-radius: 25px;
-        width: 200px;
+        /* justify-content: center; */
+
         border: #fba8ab;
     }
     .button2 {
         position: absolute;
-        bottom: -70%;
-        right: 50px;
+        top: 350px;
+        justify-content: baseline;
         padding: 20px;
         border-radius: 25px;
         width: 200px;
