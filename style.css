@@ -173,9 +173,8 @@ page2 {
     }
     #main_heading {
         display: flex;
-        /* align-items: center; */
-        /* gap: 0.5rem; */
         justify-content: center;
+        padding-block-start: 10px;
     }
     .nav {
         display: flex;
@@ -196,6 +195,7 @@ page2 {
         bottom: 300px;
         width: 360px;
         bottom: 0px;
+
     }
     #texts {
         padding:10px;
