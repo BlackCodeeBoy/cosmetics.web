@@ -11,9 +11,6 @@
 body {
     font-family: 'Encode Sans', Courier, monospace;
 }
-.background-img {
-    /* position: absolute; */
-}
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -41,7 +38,6 @@ body {
     background-color: #fba8ab;
     padding-inline: 30px;
     padding-block: 10px;
-
 }
 
 #content1 {
@@ -75,10 +71,6 @@ body {
     position: absolute;
     top: 0px;
 }
-/* .p4{
-    position:absolute;
-    top:95%;
-} */
 
 .buttons {
     display: flex;
@@ -141,7 +133,11 @@ page2 {
     font-size: 1.3rem;
 }
 .boxes {
-    position: relative;
+    transition: transform 0.2s ease;
+}
+.boxes:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
 }
 .rates {
     padding: 5px;
@@ -155,7 +151,6 @@ page2 {
     justify-content: space-between;
 }
 .price {
-    position: absolute;
     top: 30rem;
 }
 
@@ -165,7 +160,24 @@ page2 {
     padding-inline: 450px;
     gap: 23px;
 }
-
+.big_box:hover {
+    display: flex;
+    position: relative;
+    padding-inline: 450px;
+    gap: 23px;
+}
+.box-a{
+    transition: transform 0.2s ease;
+}
+.box-a:hover{
+    transform: scale(1.05);
+}
+.box-ba {
+    transition: transform 0.2s ease;
+}
+.box-ba:hover{
+    transform: scale(1.05);
+}
 .box-b {
     display: flex;
     flex-direction: column;
@@ -180,7 +192,6 @@ page2 {
 .email input {
     padding-inline: 30px;
     padding-block: 10px;
-    /* border-radius: 20px; */
     font-size: 1rem;
     border-style: ridge;
 }
