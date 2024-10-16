@@ -14,7 +14,7 @@ body {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    /* padding-block:2px; */
+    padding-block:2px;
     margin-inline: 40px;
     align-items: center;
 }
@@ -57,69 +57,37 @@ body {
     left: 60%;
 }
 .p1 {
-    position: absolute;
-    top: -80px;
+    margin-bottom: 20px;
 }
 .p2 {
-    position: absolute;
     font-family: 'Dancing Script', Courier, monospace;
     font-size: 3rem;
     top: -50px;
 }
 
 .p3 {
-    position: absolute;
     top: 0px;
 }
 
 .buttons {
+    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
+    gap:10px;
+    align-items: center;
 }
-.button1 {
-    position: absolute;
-    bottom: -70%;
-    padding: 20px;
-    border-radius: 25px;
-    width: 200px;
+.buttons button {
+    padding: 20px 30px;
+    border-radius: 50px;
     border: #fba8ab;
 }
-.button1:hover {
-    position: absolute;
-    bottom: -70%;
-    padding: 20px;
-    border-radius: 25px;
-    width: 200px;
-    border: #fba8ab;
-    background-color: #fba8ab;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
-}
-
-.button2 {
-    position: absolute;
-    bottom: -70%;
-    right: 50px;
-    padding: 20px;
-    border-radius: 25px;
-    width: 200px;
-    border: #fba8ab;
-}
-.button2:hover {
-    position: absolute;
-    bottom: -70%;
-    right: 50px;
-    padding: 20px;
-    border-radius: 25px;
-    width: 200px;
-    border: #fba8ab;
+.buttons button:hover {
+    border: 20px #ffffff;
     background-color: #fba8ab;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 page2 {
     margin: 0px, 20px, 0px, 20px;
 }
-
 .textss {
     display: flex;
     flex-direction: column;
